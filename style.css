@@ -43,7 +43,7 @@ font-size: 25px;
 }
 .section{
     text-align: center;
-background-color: rgba(73, 57, 57, 0.459);
+background-color: rgba(128, 128, 128, 0.336);
 padding: 1rem;
 }
 h1{
@@ -59,12 +59,12 @@ background-color: rgb(255, 255, 255);
 padding: 1rem;
 }
 .ef{
-    background-color: rgba(73, 57, 57, 0.459);
+background-color: rgba(128, 128, 128, 0.336);
 }
 .footer{
     display: block;
     text-align: center;
-    background-color: rgb(115, 13, 233);
+    background-color: blueviolet;
     padding: 2rem 0.8rem;
     margin: 0.5rem;
  width: auto;
@@ -110,4 +110,31 @@ align-items: center;
 }
 .contact{
 color: blueviolet;
+}
+.first-project{
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.336);
+    padding: 1rem;
+}
+.live-course{
+    background-color: blueviolet;
+    color: rgb(243, 243, 243);
+    text-decoration: none;
+   border-radius: 0.3em;
+   padding: 2px;
+   font-weight: bold;
+   margin: 2px;
+}
+.source-code{
+    background-color: rgb(245, 245, 245);
+    color: blueviolet;
+    text-decoration: none;
+   border-radius: 0.3em;
+   padding: 2px;
+   font-weight: bold;
+   margin: 2px;
+
+}
+.fab{
+    color: wheat;
 }
