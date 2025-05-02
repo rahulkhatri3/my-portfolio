@@ -138,3 +138,27 @@ color: blueviolet;
 .fab{
     color: wheat;
 }
+.project{
+    background-color: blueviolet;
+    color: white;
+    text-decoration: none;
+    border-radius: 0.5em;
+    padding: 5px;
+    font-weight: bold;
+}
+.contact{
+       
+    color: blueviolet;
+    text-decoration: none;
+    border-radius: 0.5em;
+    padding: 5px;
+     font-weight: bold;
+     border: 1px solid blueviolet;
+    
+}
+.fab{
+    color: white;
+font-size: 50px;
+display: inline-block;
+margin: 8px;
+}
