@@ -1,36 +1,79 @@
  */
 
-
-:root.dark-mode{
+:root body.dark-mode{
     --primary-color: black;
     --secondary-color: white;
 }
 
 body.dark-mode{
+background-color: black;
+color: white;
+}
+body.dark-mode header{
+    background-color: white;
+    color: black;
+}
+body.dark-mode nav{
     background-color: var(--primary-color);
     color: var(--secondary-color);
+}
+body.dark-mode .link{
+    color: black;
+}
+body.dark-mode .middle {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+background-color: black;
+color: white;}
+
+body.dark-mode .ab {
+    background-color: white;
+    color: black;
+
+}
+
+body.dark-mode .cd {
+    background-color: black;
+    color: white;    
+}
+body.dark-mode .ef {
+    background-color: white;
+    color: black;
+    
+}
+
+body.dark-mode footer {
+    background-color: black;
+    color: white;
+
+    
+}
+body.dark-mode .contact{
+    color: white;
+    border: 1px solid white;
+
 }
 
 #checkbox{
     visibility: hidden;
 }
 .toggle-btn{
-    height: 10rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 6rem;   
+justify-content: center;
+align-items: center;
+display: inline-flex;
 }
 .toggle-lable{
-    width: 6rem;
-    height: 4rem;
+    width: 4.5rem;
+    height: 3rem;
     background-color: black;
     display: inline-block;
     position: relative;
     border-radius: 10rem;
 }
 .toggle-ball{
-    width: 3rem;
-    height: 3rem;
+    width: 2rem;
+    height: 2rem;
     border-radius:50%;
     background-color: white;
     display: inline-block;
@@ -152,11 +195,8 @@ align-items: center;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
 
-    
 }
-.contact{
-color: blueviolet;
-}
+
 .first-project{
     text-align: center;
     background-color: rgba(128, 128, 128, 0.336);
@@ -217,3 +257,6 @@ margin: 8px;
     background-color: rgba(128, 128, 128, 0.336);
     padding: 1rem;
 }
+/* body.dark-mode> footer{
+    background-color: white;
+} */

@@ -6,6 +6,7 @@
     <title>Rahul portfolio</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/972fffb410.js" crossorigin="anonymous"></script>
+  
 </head>
 <body class="dark-mode">
     
@@ -22,6 +23,7 @@
         <a class="link" href="projects.html">Projects</a></li>
     <li>
         <a class="link" href="contact.html">Contact</a></li>
+
         <li>
             <div class="toggle-btn">
                 <input type="checkbox"  id="checkbox">
@@ -70,23 +72,8 @@
             </li>
 
         </footer>
-        <script>
-
-            const toggle_btn =  document.querySelector('#checkbox')
-            toggle_btn.addEventListener('change', ()=>{
-                       if(toggle_btn.checked){
-                document.body.classList.add('dark-mode')
-            }else{
-                document.body.classList.remove('dark-mode')
-            }
-            
-        })
-
- 
-
-        </script>
 
 
-    
+      <script src="./app.js"></script>
 </body>
 </html>
