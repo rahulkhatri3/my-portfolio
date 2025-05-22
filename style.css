@@ -257,6 +257,7 @@ margin: 8px;
     background-color: rgba(128, 128, 128, 0.336);
     padding: 1rem;
 }
-/* body.dark-mode> footer{
-    background-color: white;
-} */
+.fourth-project{
+    text-align: center;
+    padding: 1rem;
+}
