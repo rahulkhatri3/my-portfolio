@@ -1,13 +1,13 @@
  */
 
-:root body.dark-mode{
+:root{
     --primary-color: black;
     --secondary-color: white;
 }
 
 body.dark-mode{
-background-color: black;
-color: white;
+background-color: var(--primary-color);
+color: var(--secondary-color);
 }
 body.dark-mode header{
     background-color: white;
