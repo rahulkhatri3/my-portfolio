@@ -24,7 +24,7 @@ body.dark-mode .middle {
     background-color: var(--primary-color);
     color: var(--secondary-color);
 background-color: black;
-color: white;}
+color: rgb(255, 255, 255);}
 
 body.dark-mode .ab {
     background-color: white;
@@ -49,8 +49,8 @@ body.dark-mode footer {
     
 }
 body.dark-mode .contact{
-    color: white;
-    border: 1px solid white;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
 
 }
 
@@ -197,11 +197,6 @@ align-items: center;
 
 }
 
-.first-project{
-    text-align: center;
-    background-color: rgba(128, 128, 128, 0.336);
-    padding: 1rem;
-}
 .live-course{
     background-color: blueviolet;
     color: rgb(243, 243, 243);
